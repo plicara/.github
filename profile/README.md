@@ -34,21 +34,25 @@ than guessed from the name: **software** is installable and versioned,
 | [`regexbench`](https://github.com/foothills-labs/regexbench) | software | [`regexbench`](https://pypi.org/project/regexbench/) on PyPI — regex correctness and ReDoS evaluation |
 | [`labloop`](https://github.com/foothills-labs/labloop) | software | [`labloop`](https://pypi.org/project/labloop/) on PyPI — keep a change only if it measurably helps |
 | [`regexleaderboard`](https://github.com/foothills-labs/regexleaderboard) | study | The eleven-model regex run: runner, predictions, scored results, methodology |
-| [`foothills-labs.github.io`](https://github.com/foothills-labs/foothills-labs.github.io) | site | [foothills-labs.com](https://foothills-labs.com) — the site, the articles, the benchmark pages |
+| [`foothills-labs.github.io`](https://github.com/foothills-labs/foothills-labs.github.io) | site | [foothills-labs.com](https://foothills-labs.com) — the site and the articles |
 
 Some work is private until it has a result worth showing. It appears here when
 it does.
 
-## Results
+## What is being worked on
 
-**[Correct and unsafe](https://foothills-labs.com/research/regexes-you-could-actually-ship/)** — eleven language models write regular
-expressions. About 40% of their answers pass the tests they were given; about
-20% are patterns you could actually ship. The gap is the finding: 135 patterns
-that pass every test and can still hang a server, and 806 that pass while
-describing a different language than the reference.
+**Do generated regular expressions that pass their tests actually ship?** Eleven
+models, 450 tasks, two corpora, scored three ways: whether a pattern passes its
+tests, whether it means what was asked, and whether it can be made to hang a
+server. The three are not the same property, which is the point.
 
-Numbers: [foothills-labs.com/benchmarks](https://foothills-labs.com/benchmarks/). Every model response is committed, and the
-scores recompute from them offline without an API key.
+The write-up is in revision after expert review and will be published as an
+article with the data behind it. It is deliberately **not** a leaderboard: 62%
+of the tasks give every model the identical result, so a ranking from one to
+eleven would not survive a re-run and is not worth printing. Bands are
+defensible; an ordering is not.
+
+A second study, on literary distance, is in progress.
 
 ## Principles
 
