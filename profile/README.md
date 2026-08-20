@@ -33,7 +33,8 @@ than guessed from the name: **software** is installable and versioned,
 | --- | --- | --- |
 | [`regexbench`](https://github.com/foothills-labs/regexbench) | software | [`regexbench`](https://pypi.org/project/regexbench/) on PyPI — regex correctness and ReDoS evaluation |
 | [`labloop`](https://github.com/foothills-labs/labloop) | software | [`labloop`](https://pypi.org/project/labloop/) on PyPI — keep a change only if it measurably helps |
-| [`regexleaderboard`](https://github.com/foothills-labs/regexleaderboard) | study | The eleven-model regex run: runner, predictions, scored results, methodology |
+| [`regexeval-2026`](https://github.com/foothills-labs/regexeval-2026) | study | The eleven-model regex run: runner, predictions, scored results, methodology |
+| [`foothills-brand`](https://github.com/foothills-labs/foothills-brand) | ops | The brand as code: tokens, marks, logo set, and the generators that draw them |
 | [`foothills-labs.github.io`](https://github.com/foothills-labs/foothills-labs.github.io) | site | [foothills-labs.com](https://foothills-labs.com) — the site and the articles |
 
 Some work is private until it has a result worth showing. It appears here when
