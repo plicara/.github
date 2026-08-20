@@ -7,7 +7,7 @@
 
 # Foothills Labs
 
-**A foundation lab.** [foothills-labs.com](https://foothills-labs.com)
+**A (small) research lab:** [foothills-labs.com](https://foothills-labs.com)
 
 </div>
 
