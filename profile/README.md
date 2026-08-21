@@ -1,13 +1,13 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://foothills-labs.com/assets/brand/mark-colour-dark.svg" />
-  <img src="https://foothills-labs.com/assets/brand/mark-colour.svg" alt="Foothills Labs" width="96" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/plicara/plicara-brand/main/logo/mark-colour-dark.svg" />
+  <img src="https://raw.githubusercontent.com/plicara/plicara-brand/main/logo/mark-colour.svg" alt="Plicara Labs" width="96" />
 </picture>
 
-# Foothills Labs
+# Plicara Labs
 
-**A (small) research lab:** [foothills-labs.com](https://foothills-labs.com)
+**A (small) research lab:** [plicara.com](https://plicara.com)
 
 </div>
 
@@ -31,11 +31,11 @@ than guessed from the name: **software** is installable and versioned,
 
 | Repository | Kind | Ships |
 | --- | --- | --- |
-| [`regexbench`](https://github.com/foothills-labs/regexbench) | software | [`regexbench`](https://pypi.org/project/regexbench/) on PyPI — regex correctness and ReDoS evaluation |
-| [`labloop`](https://github.com/foothills-labs/labloop) | software | [`labloop`](https://pypi.org/project/labloop/) on PyPI — keep a change only if it measurably helps |
-| [`regexeval-2026`](https://github.com/foothills-labs/regexeval-2026) | study | The eleven-model regex run: runner, predictions, scored results, methodology |
-| [`foothills-brand`](https://github.com/foothills-labs/foothills-brand) | ops | The brand as code: tokens, marks, logo set, and the generators that draw them |
-| [`foothills-labs.github.io`](https://github.com/foothills-labs/foothills-labs.github.io) | site | [foothills-labs.com](https://foothills-labs.com) — the site and the articles |
+| [`regexbench`](https://github.com/plicara/regexbench) | software | [`regexbench`](https://pypi.org/project/regexbench/) on PyPI — regex correctness and ReDoS evaluation |
+| [`labloop`](https://github.com/plicara/labloop) | software | [`labloop`](https://pypi.org/project/labloop/) on PyPI — keep a change only if it measurably helps |
+| [`regexeval-2026`](https://github.com/plicara/regexeval-2026) | study | The eleven-model regex run: runner, predictions, scored results, methodology |
+| [`plicara-brand`](https://github.com/plicara/plicara-brand) | ops | The brand as code: tokens, marks, logo set, and the generators that draw them |
+| [`plicara.github.io`](https://github.com/plicara/plicara.github.io) | site | [plicara.com](https://plicara.com) — the site and the articles |
 
 Some work is private until it has a result worth showing. It appears here when
 it does.
