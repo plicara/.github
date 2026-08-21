@@ -18,8 +18,8 @@ deliberately narrower: build evaluation harnesses we trust before training
 anything we care about, then learn the full training loop at a scale where
 mistakes are recoverable.
 
-Foothills are where you learn. Everyone who learns to fly starts by folding
-paper.
+*Plicara* is from Latin *plicare*, to fold. Everyone who learns to fly
+starts by folding paper.
 
 ## Repositories
 
