@@ -7,7 +7,7 @@
 
 # Plicara Labs
 
-**A (small) research lab:** [plicara.com](https://plicara.com)
+**A (small) research lab:** [plicara.ai](https://plicara.ai)
 
 </div>
 
@@ -35,7 +35,7 @@ than guessed from the name: **software** is installable and versioned,
 | [`labloop`](https://github.com/plicara/labloop) | software | [`labloop`](https://pypi.org/project/labloop/) on PyPI — keep a change only if it measurably helps |
 | [`regexeval-2026`](https://github.com/plicara/regexeval-2026) | study | The eleven-model regex run: runner, predictions, scored results, methodology |
 | [`plicara-brand`](https://github.com/plicara/plicara-brand) | ops | The brand as code: tokens, marks, logo set, and the generators that draw them |
-| [`plicara.github.io`](https://github.com/plicara/plicara.github.io) | site | [plicara.com](https://plicara.com) — the site and the articles |
+| [`plicara.github.io`](https://github.com/plicara/plicara.github.io) | site | [plicara.ai](https://plicara.ai) — the site and the articles |
 
 Some work is private until it has a result worth showing. It appears here when
 it does.
