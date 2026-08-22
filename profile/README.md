@@ -53,8 +53,6 @@ of the tasks give every model the identical result, so a ranking from one to
 eleven would not survive a re-run and is not worth printing. Bands are
 defensible; an ordering is not.
 
-A second study, on literary distance, is in progress.
-
 ## Principles
 
 - **Measure before you train.** Every model claim ships with the eval that
