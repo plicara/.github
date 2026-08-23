@@ -18,13 +18,11 @@ deliberately narrower: build evaluation harnesses we trust before training
 anything we care about, then learn the full training loop at a scale where
 mistakes are recoverable.
 
-*Plicara* is from Latin *plicare*, to fold. Everyone who learns to fly
-starts by folding paper.
+*Plicara* is from Latin *plicare*, to fold.
 
 ## Repositories
 
-Every repository is one of five kinds, declared as a custom property rather
-than guessed from the name: **software** is installable and versioned,
+Every repository is one of five kinds: **software** is installable and versioned,
 **study** is a question with a method fixed in advance and a dated result,
 **site** is the publication surface, **ops** is how the lab runs, and
 **archive** is finished.
@@ -37,9 +35,6 @@ than guessed from the name: **software** is installable and versioned,
 | [`plicara-brand`](https://github.com/plicara/plicara-brand) | ops | The brand as code: tokens, marks, logo set, and the generators that draw them |
 | [`plicara.github.io`](https://github.com/plicara/plicara.github.io) | site | [plicara.ai](https://plicara.ai) — the site and the articles |
 
-Some work is private until it has a result worth showing. It appears here when
-it does.
-
 ## What is being worked on
 
 **Do generated regular expressions that pass their tests actually ship?** Eleven
@@ -47,21 +42,19 @@ models, 450 tasks, two corpora, scored three ways: whether a pattern passes its
 tests, whether it means what was asked, and whether it can be made to hang a
 server. The three are not the same property, which is the point.
 
-The write-up is in revision after expert review and will be published as an
-article with the data behind it. It is deliberately **not** a leaderboard: 62%
-of the tasks give every model the identical result, so a ranking from one to
-eleven would not survive a re-run and is not worth printing. Bands are
-defensible; an ordering is not.
-
 ## Principles
 
-- **Measure before you train.** Every model claim ships with the eval that
-  backs it, and the harness that produced it.
-- **Small and honest beats large and vague.** A 1B model with a reproducible
-  number is worth more than a big claim with none.
-- **Reproducibility is a feature.** Seeds, configs and data provenance are part
-  of the result, not an appendix to it.
-- **Publish the negative results too.** The failures are most of the signal.
+**Open weights**
+- What we train, we release and explain. Weights you can download, run, and check. Black boxes are not trustworthy, nor in the spirit of this lab.
+
+**Reproducible research**
+- Anything we publish, you can re-run and (we hope) understand.
+
+**Reliable systems**
+ - Boring infrastructure is a feature, and we take care to build systems that are robust and generally scalable.
+
+**Simple is not the enemy of powerful**
+- We reach for the plainest thing that works, and our models, research, and benchmarks carry this ethos.
 
 Released code is Apache-2.0. Model weights are licensed per release, with the
 decision recorded on the model card.
