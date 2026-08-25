@@ -32,6 +32,7 @@ Every repository is one of five kinds: **software** is installable and versioned
 | [`regexbench`](https://github.com/plicara/regexbench) | software | [`regexbench`](https://pypi.org/project/regexbench/) on PyPI — regex correctness and ReDoS evaluation |
 | [`labloop`](https://github.com/plicara/labloop) | software | [`labloop`](https://pypi.org/project/labloop/) on PyPI — keep a change only if it measurably helps |
 | [`regexeval-2026`](https://github.com/plicara/regexeval-2026) | study | The eleven-model regex run: runner, predictions, scored results, methodology |
+| [`articles`](https://github.com/plicara/articles) | study | The code behind published research: the scripts, the results, and the exports every figure is built from |
 | [`plicara-brand`](https://github.com/plicara/plicara-brand) | ops | The brand as code: tokens, marks, logo set, and the generators that draw them |
 | [`plicara.github.io`](https://github.com/plicara/plicara.github.io) | site | [plicara.ai](https://plicara.ai) — the site and the articles |
 
