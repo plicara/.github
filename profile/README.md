@@ -43,6 +43,16 @@ models, 450 tasks, two corpora, scored three ways: whether a pattern passes its
 tests, whether it means what was asked, and whether it can be made to hang a
 server. The three are not the same property, which is the point.
 
+**What language are agent skills written in, and is that changing?** A series on
+the GitSkills corpus: 3.8 million `SKILL.md` files mined from 282,200 public
+repositories. [Article 01](https://plicara.ai/research/agent-skill-languages/) is
+published: 85.3% of the 1.87 million classified files are English, and the
+non-English share is climbing, from 10.2% in 2025-Q4 to 16.3% in 2026-Q2. Of the
+456,308 files that can be dated, 30.4% carry signs of agent authorship, and that
+runs higher on Japanese skills (43.4%) than English ones (30.0%). Two more
+articles are drafted: which programming languages skills name against which they
+ship code in, and which models and harnesses they target.
+
 ## Principles
 
 **Open weights**
