@@ -13,10 +13,7 @@
 
 ---
 
-The long-term goal is training models from the ground up. The starting point is
-deliberately narrower: build evaluation harnesses we trust before training
-anything we care about, then learn the full training loop at a scale where
-mistakes are recoverable.
+Plicara is Adrian Tame’s independent AI research lab. We investigate how AI systems behave, how to measure them, and which changes make them more reliable. The work takes the form of reproducible studies, benchmarks and practical tools.
 
 *Plicara* is from Latin *plicare*, to fold.
 
@@ -31,32 +28,20 @@ Every repository is one of five kinds: **software** is installable and versioned
 | --- | --- |
 | [`regexbench`](https://github.com/plicara/regexbench) | [`regexbench`](https://pypi.org/project/regexbench/) on PyPI — regex correctness and ReDoS evaluation |
 | [`labloop`](https://github.com/plicara/labloop) | [`labloop`](https://pypi.org/project/labloop/) on PyPI — keep a change only if it measurably helps |
+| [`pi-audit-loop`](https://github.com/plicara/pi-audit-loop) | Audit loop for the pi coding agent — alternating review and simplification until convergence |
 | [`regexeval-2026`](https://github.com/plicara/regexeval-2026) | The eleven-model regex run: runner, predictions, scored results, methodology |
 | [`articles`](https://github.com/plicara/articles) | The code behind published research: the scripts, the results, and the exports every figure is built from |
 | [`plicara-brand`](https://github.com/plicara/plicara-brand) | The brand as code: tokens, marks, logo set, and the generators that draw them |
 | [`plicara.github.io`](https://github.com/plicara/plicara.github.io) | [plicara.ai](https://plicara.ai) — the site and the articles |
 
-## What is being worked on
+## Explore the work
 
-**Do generated regular expressions that pass their tests actually ship?** Eleven
-models, 450 tasks, two corpora, scored three ways: whether a pattern passes its
-tests, whether it means what was asked, and whether it can be made to hang a
-server. The three are not the same property, which is the point.
-
-**What language are agent skills written in, and is that changing?** A series on
-the GitSkills corpus: 3.8 million `SKILL.md` files mined from 282,200 public
-repositories. [Article 01](https://plicara.ai/research/agent-skill-languages/) is
-published: 85.3% of the 1.87 million classified files are English, and the
-non-English share is climbing, from 10.2% in 2025-Q4 to 16.3% in 2026-Q2. Of the
-456,308 files that can be dated, 30.4% carry signs of agent authorship, and that
-runs higher on Japanese skills (43.4%) than English ones (30.0%). Two more
-articles are drafted: which programming languages skills name against which they
-ship code in, and which models and harnesses they target.
+[Research](https://plicara.ai/research/) explains the questions and findings. [Tools](https://plicara.ai/tools/) provides installation examples. [Benchmarks](https://plicara.ai/benchmarks/) collects the evaluations and their methodology.
 
 ## Principles
 
-**Open weights**
-- What we train, we release and explain. Weights you can download, run, and check. Black boxes are not trustworthy, nor in the spirit of this lab.
+**Evidence you can inspect**
+- Code, methods and recorded outputs belong beside the claim. Models are one possible research artifact.
 
 **Reproducible research**
 - Anything we publish, you can re-run and (we hope) understand.
