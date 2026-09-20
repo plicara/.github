@@ -1,0 +1,10 @@
+schema_version: 1
+id: plicara-profile
+name: "Plicara organization profile"
+description: "Public introduction and entry points to Plicara research."
+kind: operations
+status: maintained
+repository: https://github.com/plicara/.github
+artifacts:
+  - kind: reference
+    path: profile/README.md
