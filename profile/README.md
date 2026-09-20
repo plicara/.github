@@ -19,10 +19,7 @@ Plicara is Adrian Tame’s independent AI research lab. We investigate how AI sy
 
 ## Repositories
 
-Every repository is one of five kinds: **software** is installable and versioned,
-**study** is a question with a method fixed in advance and a dated result,
-**site** is the publication surface, **ops** is how the lab runs, and
-**archive** is finished.
+Selected public entry points are listed below. Each repository owns its project metadata and reproduction instructions; this profile is an introduction, not a project-status board.
 
 | Repository | Ships |
 | --- | --- |
