@@ -41,7 +41,7 @@ Selected public entry points are listed below. Each repository owns its project 
 - Code, methods and recorded outputs belong beside the claim. Models are one possible research artifact.
 
 **Reproducible research**
-- Anything we publish, you can re-run and (we hope) understand.
+- We publish methods and evidence where available, and state which results can be replayed and which still have evidence gaps.
 
 **Reliable systems**
  - Boring infrastructure is a feature, and we take care to build systems that are robust and generally scalable.
