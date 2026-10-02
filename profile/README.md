@@ -25,7 +25,7 @@ Selected public entry points are listed below. Each repository owns its project 
 | --- | --- |
 | [`regexbench`](https://github.com/plicara/regexbench) | [`regexbench`](https://pypi.org/project/regexbench/) on PyPI — regex correctness and ReDoS evaluation |
 | [`labloop`](https://github.com/plicara/labloop) | [`labloop`](https://pypi.org/project/labloop/) on PyPI — keep a change only if it measurably helps |
-| [`pi-audit-loop`](https://github.com/plicara/pi-audit-loop) | Audit loop for the pi coding agent — alternating review and simplification until convergence |
+| [`pi-audit-loop`](https://github.com/plicara/pi-audit-loop) | [`@plicara/pi-audit-loop`](https://www.npmjs.com/package/@plicara/pi-audit-loop) on npm — a one-pass review, change, and verification workflow for the pi coding agent |
 | [`regexeval-2026`](https://github.com/plicara/regexeval-2026) | The eleven-model regex run: runner, predictions, scored results, methodology |
 | [`articles`](https://github.com/plicara/articles) | The code behind published research: the scripts, the results, and the exports every figure is built from |
 | [`plicara-brand`](https://github.com/plicara/plicara-brand) | The brand as code: tokens, marks, logo set, and the generators that draw them |
