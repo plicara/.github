@@ -49,5 +49,5 @@ Selected public entry points are listed below. Each repository owns its project 
 **Simple is not the enemy of powerful**
 - We reach for the plainest thing that works, and our models, research, and benchmarks carry this ethos.
 
-Released code is Apache-2.0. Model weights are licensed per release, with the
-decision recorded on the model card.
+Code is Apache-2.0 unless a repository's LICENSE says otherwise (`pi-audit-loop` is MIT, `benchmarks` data is CC BY-NC 4.0).
+Model weights are licensed per release, with the decision recorded on the model card.
