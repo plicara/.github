@@ -13,7 +13,7 @@
 
 ---
 
-Plicara is Adrian Tame’s independent AI research lab. We investigate how AI systems behave, how to measure them, and which changes make them more reliable. The work takes the form of reproducible studies, benchmarks and practical tools.
+Plicara is my independent AI research lab. I investigate how AI systems behave, how to measure them, and which changes make them more reliable. The work takes the form of reproducible studies, benchmarks and practical tools.
 
 *Plicara* is from Latin *plicare*, to fold.
 
@@ -41,13 +41,13 @@ Selected public entry points are listed below. Each repository owns its project 
 - Code, methods and recorded outputs belong beside the claim. Models are one possible research artifact.
 
 **Reproducible research**
-- We publish methods and evidence where available, and state which results can be replayed and which still have evidence gaps.
+- I publish methods and evidence where available, and state which results can be replayed and which still have evidence gaps.
 
 **Reliable systems**
- - Boring infrastructure is a feature, and we take care to build systems that are robust and generally scalable.
+ - Boring infrastructure is a feature, and I take care to build systems that are robust and generally scalable.
 
 **Simple is not the enemy of powerful**
-- We reach for the plainest thing that works, and our models, research, and benchmarks carry this ethos.
+- I reach for the plainest thing that works, and my models, research, and benchmarks carry this ethos.
 
 Code is Apache-2.0 unless a repository's LICENSE says otherwise (`pi-audit-loop` is MIT, `benchmarks` data is CC BY-NC 4.0).
 Model weights are licensed per release, with the decision recorded on the model card.
